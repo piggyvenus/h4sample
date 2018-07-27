@@ -29,7 +29,7 @@ public class H4Test {
 	{
 
 		
-		 CompositeConfiguration config = new CompositeConfiguration();
+		CompositeConfiguration config = new CompositeConfiguration();
 		 
         // add config sources.
         // add SystemConfiguration first below we need to override properties
