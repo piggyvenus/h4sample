@@ -35,9 +35,9 @@ public class H4Test {
         // add SystemConfiguration first below we need to override properties
         // using java system properties
         config.addConfiguration(new SystemConfiguration());
-        config.addConfiguration(new PropertiesConfiguration("./sample.properties"));
+        config.addConfiguration(new PropertiesConfiguration("./h4sample.properties"));
         System.out.println("----------------------------");
-        System.out.println("Listing composite properties");
+        System.out.println("Listing h4sample properties");
         System.out.println("----------------------------");
         Iterator<String> keys = config.getKeys();
         while (keys.hasNext()) {
